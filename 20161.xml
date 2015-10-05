@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_repeat" id="1" inline="true" x="118" y="95">
+  <block type="controls_repeat" id="1" inline="true" x="186" y="0">
     <value name="TIMES">
       <block type="math_number" id="2">
         <field name="NUM">133333</field>
@@ -21,7 +21,39 @@
               <block type="movement_left" id="7"></block>
             </statement>
             <next>
-              <block type="movement_stop" id="8"></block>
+              <block type="movement_stop" id="8">
+                <next>
+                  <block type="controls_repeat" id="26" inline="true">
+                    <value name="TIMES">
+                      <block type="math_number" id="33">
+                        <field name="NUM">133333</field>
+                      </block>
+                    </value>
+                    <statement name="DO">
+                      <block type="movement_forward" id="43"></block>
+                    </statement>
+                    <next>
+                      <block type="movement_stop" id="62">
+                        <next>
+                          <block type="controls_repeat" id="52" inline="true">
+                            <value name="TIMES">
+                              <block type="math_number" id="69">
+                                <field name="NUM">32500</field>
+                              </block>
+                            </value>
+                            <statement name="DO">
+                              <block type="movement_right" id="79"></block>
+                            </statement>
+                            <next>
+                              <block type="movement_stop" id="89"></block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
             </next>
           </block>
         </next>
