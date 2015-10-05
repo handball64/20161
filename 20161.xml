@@ -23,29 +23,29 @@
             <next>
               <block type="movement_stop" id="8">
                 <next>
-                  <block type="controls_repeat" id="26" inline="true">
+                  <block type="controls_repeat" id="9" inline="true">
                     <value name="TIMES">
-                      <block type="math_number" id="33">
+                      <block type="math_number" id="10">
                         <field name="NUM">133333</field>
                       </block>
                     </value>
                     <statement name="DO">
-                      <block type="movement_forward" id="43"></block>
+                      <block type="movement_forward" id="11"></block>
                     </statement>
                     <next>
-                      <block type="movement_stop" id="62">
+                      <block type="movement_stop" id="12">
                         <next>
-                          <block type="controls_repeat" id="52" inline="true">
+                          <block type="controls_repeat" id="13" inline="true">
                             <value name="TIMES">
-                              <block type="math_number" id="69">
+                              <block type="math_number" id="14">
                                 <field name="NUM">32500</field>
                               </block>
                             </value>
                             <statement name="DO">
-                              <block type="movement_right" id="79"></block>
+                              <block type="movement_right" id="15"></block>
                             </statement>
                             <next>
-                              <block type="movement_stop" id="89"></block>
+                              <block type="movement_stop" id="16"></block>
                             </next>
                           </block>
                         </next>
